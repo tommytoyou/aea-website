@@ -132,12 +132,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-earth">Phone</h3>
-                  <a
-                    href="tel:620-756-1000"
-                    className="text-gold hover:text-primary-green transition-colors font-semibold"
-                  >
-                    (620) 756-1000
-                  </a>
+                  <span className="text-gold font-semibold">(620) 756-1000</span>
                 </div>
               </div>
 

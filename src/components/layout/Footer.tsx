@@ -42,12 +42,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center space-x-3">
                 <Phone size={18} className="text-gold flex-shrink-0" />
-                <a
-                  href="tel:620-756-1000"
-                  className="text-gray-300 hover:text-gold transition-colors"
-                >
-                  (620) 756-1000
-                </a>
+                <span className="text-gray-300">(620) 756-1000</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail size={18} className="text-gold flex-shrink-0" />

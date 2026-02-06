@@ -76,13 +76,10 @@ export default function Home() {
             Call today to speak with one of our engineers.
           </h2>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mt-8">
-            <a
-              href="tel:620-756-1000"
-              className="flex items-center space-x-2 text-2xl font-bold text-gold hover:text-white transition-colors"
-            >
+            <span className="flex items-center space-x-2 text-2xl font-bold text-gold">
               <Phone size={28} />
               <span>(620) 756-1000</span>
-            </a>
+            </span>
             <Link to="/contact">
               <Button variant="secondary" size="lg">
                 Send Us a Message

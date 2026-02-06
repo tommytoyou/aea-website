@@ -47,13 +47,10 @@ export default function Header() {
           </nav>
 
           <div className="flex items-center space-x-4">
-            <a
-              href="tel:620-756-1000"
-              className="hidden sm:flex items-center space-x-2 text-gold hover:text-white transition-colors"
-            >
+            <span className="hidden sm:flex items-center space-x-2 text-gold">
               <Phone size={18} />
               <span className="text-sm font-semibold">(620) 756-1000</span>
-            </a>
+            </span>
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="lg:hidden p-2 rounded-md hover:bg-white hover:bg-opacity-10"
@@ -85,13 +82,10 @@ export default function Header() {
                 {link.label}
               </NavLink>
             ))}
-            <a
-              href="tel:620-756-1000"
-              className="flex items-center space-x-2 px-4 py-3 text-gold"
-            >
+            <span className="flex items-center space-x-2 px-4 py-3 text-gold">
               <Phone size={18} />
               <span className="font-semibold">(620) 756-1000</span>
-            </a>
+            </span>
           </div>
         </div>
       )}

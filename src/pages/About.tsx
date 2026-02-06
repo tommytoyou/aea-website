@@ -53,13 +53,10 @@ export default function About() {
                     {paragraph}
                   </p>
                   <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                    <a
-                      href="tel:620-756-1000"
-                      className="flex items-center space-x-2 text-xl font-bold text-gold hover:text-primary-green transition-colors"
-                    >
+                    <span className="flex items-center space-x-2 text-xl font-bold text-gold">
                       <Phone size={24} />
                       <span>(620) 756-1000</span>
-                    </a>
+                    </span>
                     <Link to="/contact">
                       <Button>Contact Us</Button>
                     </Link>
